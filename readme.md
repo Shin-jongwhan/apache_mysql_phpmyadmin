@@ -140,13 +140,16 @@ AddType application/x-httpd-php .html .php
 ## 아파치 실행 확인
 ### http://localhost/ or http://localhost:80/ (80은 conf 파일에서 설정한 포트 번호) 
 ![image](https://user-images.githubusercontent.com/62974484/149976327-d9d535e0-ad07-40ce-a206-8a159de50800.png)
+### <br/>
 ## phpMyAdmin의 index.php 실행 확인
 ### http://localhost/phpMyAdmin/ 으로 접속하면 자동으로 index.php로 넘어간다.
 ![image](https://user-images.githubusercontent.com/62974484/149976510-1563a06f-8656-4eb6-a6f2-b85cefe4a6ce.png)
+### <br/>
 ## mySQL 연동 확인
 ### Shell 실행 : 윈도우 검색에서 mysql이라고 검색하면 command line client 라는 것이 있다. 이걸 실행하면 된다.
 ### 또는 cmd 창에서 > mysql -u root -p 로 접속하자
 ![image](https://user-images.githubusercontent.com/62974484/149976853-e6ee298f-b4da-40b7-b7f9-2d2bce4eac30.png)
+### <br/>
 ### Database를 MySQL에서 생성했을 때 phpMyAdmin에서도 뜨면 잘 연동된 것이다.
 ```
 >> create database test
