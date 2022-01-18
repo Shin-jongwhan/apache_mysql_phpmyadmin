@@ -147,9 +147,9 @@ AddType application/x-httpd-php .html .php
 ### 또는 cmd 창에서 > mysql -u root -p 로 접속하자
 ![image](https://user-images.githubusercontent.com/62974484/149976853-e6ee298f-b4da-40b7-b7f9-2d2bce4eac30.png)
 ### Database를 MySQL에서 생성했을 때 phpMyAdmin에서도 뜨면 잘 연동된 것이다.
-'''
+```
 >> create database test
-'''
+```
 ![image](https://user-images.githubusercontent.com/62974484/149977039-26599a4a-fde1-4966-9297-a86fc6eba25e.png)
 
 
