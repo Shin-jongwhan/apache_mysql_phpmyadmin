@@ -56,6 +56,7 @@ datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
 ### <br/><br/>
 ## php 설정
 ### 1. php.ini-developmen를 복사해서 php.ini로 이름 변경한다.
+### <br/>
 ### 2. php.ini 설정
 ### ; 는 꼭 지우기
 ### extension_dir 경로는 설치한 php 경로로 지정한다.
