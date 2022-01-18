@@ -16,13 +16,16 @@ https://dev.mysql.com/downloads/installer/
 
 # 설정
 ## MySQL
-### MySQL 폴더 안에 **my.ini** 파일을 하나 생성한 후 아래와 같이 작성한다.
+### 1. MySQL 폴더 안에 **my.ini** 파일을 하나 생성한 후 아래와 같이 작성한다.
 ###
 ![image](https://user-images.githubusercontent.com/62974484/149967279-c2402331-48f0-48ad-be44-dff418299a4e.png)
-###
 ```
 [mysqld]
 basedir="C:/Program Files/MySQL/MySQL Server 8.0"
 datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
 ```
-###
+### <br/>
+### 2. MySQL 환경 변수를 설정해준다.
+![image](https://user-images.githubusercontent.com/62974484/149969013-9bc5c161-c88d-40d6-ae57-df3cf1ae6f45.png)
+#### <br/>
+### 3. 
