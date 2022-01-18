@@ -89,7 +89,8 @@ datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
 ### 3. httpd.exe 실행
 ### Cmd를 관리자 권한으로 실행한 후 bin 폴더로 가서
 ### $ httpd.exe –k install
-### ** 삭제하고 싶다면
+#### <br/>
+### * 삭제하고 싶다면
 ### $ httpd.exe –k uninstall
 ![image](https://user-images.githubusercontent.com/62974484/149974545-8759ce8e-0da9-42fc-a034-fd087d2ec6ad.png)
 
