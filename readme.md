@@ -26,6 +26,7 @@ datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
 ```
 ### <br/>
 ### 2. MySQL 환경 변수를 설정해준다.
+### 환경 변수 -> path -> MySQL 경로 입력 및 저장
 ![image](https://user-images.githubusercontent.com/62974484/149969013-9bc5c161-c88d-40d6-ae57-df3cf1ae6f45.png)
 #### <br/>
 ### 3. 
