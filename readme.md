@@ -62,12 +62,12 @@ datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
 '''
 * ; 는 꼭 지우기
 extension_dir = "C:/php8/ext/"
-
+.
 extension=mbstring
 extension=mysqli
 extension=openssl
 extension=pdo_mysql
-
+.
 그 다음
 C:/windows/로 옮겨준다.
 원래 php8 폴더에 있던 것은 충돌이 날 수도 있다고 하니 삭제해준다.
