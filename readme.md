@@ -40,7 +40,6 @@ datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
 ### 4. cmd 창에 아래 명령어를 실행하면 MySQL 서비스가 install된다.
 ### > mysqld.exe --install
 ### 5. 윈도우 검색 - 서비스를 검색해서 실행 -> MySQL을 실행하자.
-![image](https://user-images.githubusercontent.com/62974484/149970223-864630f6-2ff0-4401-8016-e161dbd35f24.png)
 ### <br/>
 ### 6. root 비밀번호 설정
 ### cmd 창에서 MySQL을 실행한다.
