@@ -29,4 +29,12 @@ datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
 ### 환경 변수 -> path -> MySQL 경로 입력 및 저장
 ![image](https://user-images.githubusercontent.com/62974484/149969013-9bc5c161-c88d-40d6-ae57-df3cf1ae6f45.png)
 #### <br/>
-### 3. 
+### 3. cmd를 관리자 권한으로 실행
+### 아래 명령어를 치면 mysql 폴더 안에 data 폴더가 생성된다.
+### > mysqld.exe --initialize
+![image](https://user-images.githubusercontent.com/62974484/149969470-840984cc-7862-45ef-a278-e03845fa6911.png)
+### <br/>
+### 컴퓨터 id인 파일명을 가진 파일에서 root 계정의 초기 임시 비밀번호를 확인할 수 있다.
+![image](https://user-images.githubusercontent.com/62974484/149969540-9f25bfaf-71fe-433c-86ed-0000141a1837.png)
+
+
