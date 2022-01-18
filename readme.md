@@ -14,6 +14,8 @@ https://dev.mysql.com/downloads/installer/
 ###
 ![image](https://user-images.githubusercontent.com/62974484/149966040-a41009c8-0251-45e7-96f6-ec9635797ca5.png)
 ###
+###
+###
 
 # 설정
 ## MySQL
