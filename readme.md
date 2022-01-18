@@ -10,6 +10,7 @@ https://drive.google.com/file/d/19t4PixNse6dqT1jbehTJ8mYnQPxX4gX5/view?usp=shari
 ![image](https://user-images.githubusercontent.com/62974484/149971655-7106efff-bbb1-45c8-a2c3-67d8d12a0ff4.png)
 ### <br/>
 ## phpMyAdmin
+### 버전은 꼭 5.2+로 받자. 안 그러면 에러가 난다.
 https://drive.google.com/file/d/1Cefj_JesAbO5WOLboBFEqWcOwj1Ji_Cj/view?usp=sharing
 ### <br/>
 ## MySQL
@@ -71,3 +72,24 @@ datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
 ### 그 다음 php.ini 파일을 C:/windows/로 옮겨준다.
 ### 원래 php8 폴더에 있던 것은 충돌이 날 수도 있다고 하니 삭제해준다.
 ![image](https://user-images.githubusercontent.com/62974484/149972040-3b38c78c-f04c-4ff1-83a7-cd9cbefad865.png)
+### <br/><br/>
+## phpMyAdmin 설정
+### 1. config.lnc.php 수정
+### 압축을 풀고 config.sample.lnc.php를 복붙한 후, config.lnc.php로 바꿔준다.
+![image](https://user-images.githubusercontent.com/62974484/149973920-922cceb0-62d5-43a5-94bd-6bad96460777.png)
+### 아래 그림과 같이 수정해준 후 저장
+![image](https://user-images.githubusercontent.com/62974484/149974023-c44ac63b-b520-4298-bc94-25a8615bf747.png)
+### <br/>
+### 2. httpd.conf 설정
+### ..\Apache24\conf\ 경로에 httpd.conf 파일을 연다.
+### 서버루트 설정(SRVROOT)
+### Define SRVROOT "C:/Apache24"
+![image](https://user-images.githubusercontent.com/62974484/149974347-abb19600-2a17-4b40-831e-b5d37a356ed0.png)
+### <br/>
+### 3. httpd.exe 실행
+### Cmd를 관리자 권한으로 실행한 후 bin 폴더로 가서
+### $ httpd.exe –k install
+### ** 삭제하고 싶다면
+### $ httpd.exe –k uninstall
+![image](https://user-images.githubusercontent.com/62974484/149974545-8759ce8e-0da9-42fc-a034-fd087d2ec6ad.png)
+
