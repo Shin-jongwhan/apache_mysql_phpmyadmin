@@ -61,13 +61,17 @@ datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
 ### 2. php.ini 설정
 ### ; 는 꼭 지우기
 ### extension_dir 경로는 설치한 php 경로로 지정한다.
-### extension_dir = "C:/php8/ext/"
+```
+extension_dir = "C:/php8/ext/"
+```
 #### <br/>
 ### 추가 모듈에 주석을 지워준다.
-### extension=mbstring
-### extension=mysqli
-### extension=openssl
-### extension=pdo_mysql
+```
+extension=mbstring
+extension=mysqli
+extension=openssl
+extension=pdo_mysql
+```
 #### <br/>
 ### 그 다음 php.ini 파일을 C:/windows/로 옮겨준다.
 ### 원래 php8 폴더에 있던 것은 충돌이 날 수도 있다고 하니 삭제해준다.
