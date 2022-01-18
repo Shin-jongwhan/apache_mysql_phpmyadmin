@@ -60,7 +60,7 @@ datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
 ### 2. php.ini 설정
 ### ; 는 꼭 지우기
 ### extension_dir = "C:/php8/ext/"
-### .
+<br/>
 ### extension=mbstring
 ### extension=mysqli
 ### extension=openssl
