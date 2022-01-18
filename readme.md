@@ -1,7 +1,7 @@
 # 다운로드 경로
 ## apache
 https://drive.google.com/file/d/1utm1LjFk0G14WDxajD7sGaBEZNJTNUzz/view?usp=sharing
-### 압축을 풀면 Apache24 폴더만 쓰면 된다. C:/으로 이동시켜준다.
+### 압축을 풀면 Apache24 폴더만 쓰면 된다. C:/으로 이동시켜준다(아래 그림).
 ### <br/>
 ## php
 ### php는 thread safe 버전으로 사용한다.
@@ -53,5 +53,22 @@ datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
 ### select host, user, plugin, authentication_string, password_last_changed from user;
 ### 하고 quit으로 나간 다음 재접속해보기
 ![image](https://user-images.githubusercontent.com/62974484/149970901-a463be2e-be2e-4299-829f-2189f55d6601.png)
+### <br/><br/>
+## php 설정
+### 1. php.ini-developmen를 복사해서 php.ini로 이름 변경한다.
+![image](https://user-images.githubusercontent.com/62974484/149972069-7c7807e4-1692-48f1-be2b-51fb3fb1a52f.png)
+### 2. php.ini 설정
+'''
+* ; 는 꼭 지우기
+extension_dir = "C:/php8/ext/"
 
+extension=mbstring
+extension=mysqli
+extension=openssl
+extension=pdo_mysql
 
+그 다음
+C:/windows/로 옮겨준다.
+원래 php8 폴더에 있던 것은 충돌이 날 수도 있다고 하니 삭제해준다.
+'''
+![image](https://user-images.githubusercontent.com/62974484/149972040-3b38c78c-f04c-4ff1-83a7-cd9cbefad865.png)
