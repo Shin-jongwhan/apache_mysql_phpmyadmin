@@ -18,6 +18,6 @@ https://dev.mysql.com/downloads/installer/
 # 설정
 ## MySQL
 ### MySQL 폴더 안에 **my.ini** 파일을 하나 생성한 후 아래와 같이 작성한다.
-  [mysqld]
-  basedir="C:/Program Files/MySQL/MySQL Server 8.0"
-  datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
+    [mysqld]
+    basedir="C:/Program Files/MySQL/MySQL Server 8.0"
+    datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
