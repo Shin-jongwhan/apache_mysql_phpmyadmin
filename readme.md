@@ -136,7 +136,9 @@ AddType application/x-httpd-php .html .php
 
 
 # 아파치 실행 및 연동 확인
+## 아파치 서버 켜기
 ![image](https://user-images.githubusercontent.com/62974484/149976158-5f0d41f5-ab32-4481-a992-a5a8001a983d.png)
+### <br/>
 ## 아파치 실행 확인
 ### http://localhost/ or http://localhost:80/ (80은 conf 파일에서 설정한 포트 번호) 
 ![image](https://user-images.githubusercontent.com/62974484/149976327-d9d535e0-ad07-40ce-a206-8a159de50800.png)
