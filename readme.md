@@ -93,4 +93,16 @@ datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
 ### * 삭제하고 싶다면
 ### $ httpd.exe –k uninstall
 ![image](https://user-images.githubusercontent.com/62974484/149974545-8759ce8e-0da9-42fc-a034-fd087d2ec6ad.png)
+### <br/>
+### 4. php 연결
+### 맨 밑 줄에 다음과 같이 추가해준다.
+'''
+PHPIniDir "C:/Windows"
+LoadModule php_module "C:/php8/php8apache2_4.dll"
+AddType application/x-httpd-php .html .php
+'''
+![image](https://user-images.githubusercontent.com/62974484/149974924-3145fc10-f2d0-4b83-bb6c-942b170ab060.png)
+### 앞으로 접속할 mysql - phpMyAdmin index 웹페이지를 설정하기 위해 index.php 페이지를 추가해준다.
+![image](https://user-images.githubusercontent.com/62974484/149975041-52e4a0f0-a526-44ab-91e1-a8f8aa00b1c4.png)
+
 
