@@ -56,15 +56,15 @@ datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
 ### <br/><br/>
 ## php 설정
 ### 1. php.ini-developmen를 복사해서 php.ini로 이름 변경한다.
-![image](https://user-images.githubusercontent.com/62974484/149972069-7c7807e4-1692-48f1-be2b-51fb3fb1a52f.png)
 ### 2. php.ini 설정
 ### ; 는 꼭 지우기
+### extension_dir 경로는 설치한 php 경로로 지정한다.<br/>
 ### extension_dir = "C:/php8/ext/"
-### <br/>
+### 추가 모듈에 주석을 지워준다.<br/>
 ### extension=mbstring
 ### extension=mysqli
 ### extension=openssl
 ### extension=pdo_mysql
-### 그 다음 C:/windows/로 옮겨준다.
+### 그 다음 php.ini 파일을 C:/windows/로 옮겨준다.
 ### 원래 php8 폴더에 있던 것은 충돌이 날 수도 있다고 하니 삭제해준다.
 ![image](https://user-images.githubusercontent.com/62974484/149972040-3b38c78c-f04c-4ff1-83a7-cd9cbefad865.png)
