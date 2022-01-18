@@ -132,17 +132,18 @@ AddType application/x-httpd-php .html .php
 ### <br/>
 ### 5. 아파치 index.html 폴더에 넣기
 ![image](https://user-images.githubusercontent.com/62974484/149976125-067f28fc-fad7-463f-9a63-f153400cb3df.png)
+### <br/><br/><br/>
 
 
-## 아파치 실행하기
+# 아파치 실행 및 연동 확인
 ![image](https://user-images.githubusercontent.com/62974484/149976158-5f0d41f5-ab32-4481-a992-a5a8001a983d.png)
-### 1. 아파치 실행 확인
+## 아파치 실행 확인
 ### http://localhost/ or http://localhost:80/ (80은 conf 파일에서 설정한 포트 번호) 
 ![image](https://user-images.githubusercontent.com/62974484/149976327-d9d535e0-ad07-40ce-a206-8a159de50800.png)
-### 2. phpMyAdmin의 index.php 실행 확인
+## phpMyAdmin의 index.php 실행 확인
 ### http://localhost/phpMyAdmin/ 으로 접속하면 자동으로 index.php로 넘어간다.
 ![image](https://user-images.githubusercontent.com/62974484/149976510-1563a06f-8656-4eb6-a6f2-b85cefe4a6ce.png)
-### 3. mySQL 연동 확인
+## mySQL 연동 확인
 ### Shell 실행 : 윈도우 검색에서 mysql이라고 검색하면 command line client 라는 것이 있다. 이걸 실행하면 된다.
 ### 또는 cmd 창에서 > mysql -u root -p 로 접속하자
 ![image](https://user-images.githubusercontent.com/62974484/149976853-e6ee298f-b4da-40b7-b7f9-2d2bce4eac30.png)
