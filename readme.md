@@ -13,9 +13,8 @@ https://drive.google.com/file/d/1Cefj_JesAbO5WOLboBFEqWcOwj1Ji_Cj/view?usp=shari
 https://dev.mysql.com/downloads/installer/
 ###
 ![image](https://user-images.githubusercontent.com/62974484/149966040-a41009c8-0251-45e7-96f6-ec9635797ca5.png)
-   
-   
-   
+<br/><br/><br/>
+
 # 설정
 ## MySQL
 ### MySQL 폴더 안에 **my.ini** 파일을 하나 생성한 후 아래와 같이 작성한다.
