@@ -1,10 +1,13 @@
 # 다운로드 경로
 ## apache
 https://drive.google.com/file/d/1utm1LjFk0G14WDxajD7sGaBEZNJTNUzz/view?usp=sharing
-### 압축을 풀면 Apache24 폴더만 쓰면 된다.
+### 압축을 풀면 Apache24 폴더만 쓰면 된다. C:/으로 이동시켜준다.
 ### <br/>
 ## php
+### php는 thread safe 버전으로 사용한다.
+### 압축을 푼 후 C:/으로 이동시켜준다.
 https://drive.google.com/file/d/19t4PixNse6dqT1jbehTJ8mYnQPxX4gX5/view?usp=sharing
+![image](https://user-images.githubusercontent.com/62974484/149971655-7106efff-bbb1-45c8-a2c3-67d8d12a0ff4.png)
 ### <br/>
 ## phpMyAdmin
 https://drive.google.com/file/d/1Cefj_JesAbO5WOLboBFEqWcOwj1Ji_Cj/view?usp=sharing
