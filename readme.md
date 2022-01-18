@@ -18,6 +18,8 @@ https://dev.mysql.com/downloads/installer/
 ![image](https://user-images.githubusercontent.com/62974484/149966040-a41009c8-0251-45e7-96f6-ec9635797ca5.png)
 ### <br/><br/><br/>
 
+
+
 # 설정
 ## MySQL
 ### 1. MySQL 폴더 안에 **my.ini** 파일을 하나 생성한 후 아래와 같이 작성한다.
@@ -66,6 +68,8 @@ select host, user, plugin, authentication_string, password_last_changed from use
 ### 하고 quit으로 나간 다음 재접속해보기
 ![image](https://user-images.githubusercontent.com/62974484/149970901-a463be2e-be2e-4299-829f-2189f55d6601.png)
 ### <br/><br/>
+
+
 ## php 설정
 ### 1. php.ini-developmen를 복사해서 php.ini로 이름 변경한다.
 ### <br/>
@@ -88,6 +92,8 @@ extension=pdo_mysql
 ### 원래 php8 폴더에 있던 것은 충돌이 날 수도 있다고 하니 삭제해준다.
 ![image](https://user-images.githubusercontent.com/62974484/149972040-3b38c78c-f04c-4ff1-83a7-cd9cbefad865.png)
 ### <br/><br/>
+
+
 ## phpMyAdmin 설정
 ### 1. config.lnc.php 수정
 ### 압축을 풀고 config.sample.lnc.php를 복붙한 후, config.lnc.php로 바꿔준다.
@@ -103,10 +109,14 @@ extension=pdo_mysql
 ### <br/>
 ### 3. httpd.exe 실행
 ### Cmd를 관리자 권한으로 실행한 후 bin 폴더로 가서
-### $ httpd.exe –k install
+```
+$ httpd.exe –k install
+```
 #### <br/>
 ### * 삭제하고 싶다면
-### $ httpd.exe –k uninstall
+```
+$ httpd.exe –k uninstall
+```
 ![image](https://user-images.githubusercontent.com/62974484/149974545-8759ce8e-0da9-42fc-a034-fd087d2ec6ad.png)
 ### <br/>
 ### 4. php 연결
@@ -119,5 +129,28 @@ AddType application/x-httpd-php .html .php
 ![image](https://user-images.githubusercontent.com/62974484/149974924-3145fc10-f2d0-4b83-bb6c-942b170ab060.png)
 ### 앞으로 접속할 mysql - phpMyAdmin index 웹페이지를 설정하기 위해 index.php 페이지를 추가해준다.
 ![image](https://user-images.githubusercontent.com/62974484/149975041-52e4a0f0-a526-44ab-91e1-a8f8aa00b1c4.png)
+### <br/>
+### 5. 아파치 index.html 폴더에 넣기
+![image](https://user-images.githubusercontent.com/62974484/149976125-067f28fc-fad7-463f-9a63-f153400cb3df.png)
+
+
+## 아파치 실행하기
+![image](https://user-images.githubusercontent.com/62974484/149976158-5f0d41f5-ab32-4481-a992-a5a8001a983d.png)
+### 1. 아파치 실행 확인
+### http://localhost/ or http://localhost:80/ (80은 conf 파일에서 설정한 포트 번호) 
+![image](https://user-images.githubusercontent.com/62974484/149976327-d9d535e0-ad07-40ce-a206-8a159de50800.png)
+### 2. phpMyAdmin의 index.php 실행 확인
+### http://localhost/phpMyAdmin/ 으로 접속하면 자동으로 index.php로 넘어간다.
+![image](https://user-images.githubusercontent.com/62974484/149976510-1563a06f-8656-4eb6-a6f2-b85cefe4a6ce.png)
+### 3. mySQL 연동 확인
+### Shell 실행 : 윈도우 검색에서 mysql이라고 검색하면 command line client 라는 것이 있다. 이걸 실행하면 된다.
+### 또는 cmd 창에서 > mysql -u root -p 로 접속하자
+![image](https://user-images.githubusercontent.com/62974484/149976853-e6ee298f-b4da-40b7-b7f9-2d2bce4eac30.png)
+### Database를 MySQL에서 생성했을 때 phpMyAdmin에서도 뜨면 잘 연동된 것이다.
+'''
+>> create database test
+'''
+![image](https://user-images.githubusercontent.com/62974484/149977039-26599a4a-fde1-4966-9297-a86fc6eba25e.png)
+
 
 
