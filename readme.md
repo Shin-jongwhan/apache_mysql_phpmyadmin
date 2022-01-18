@@ -23,7 +23,9 @@ https://dev.mysql.com/downloads/installer/
 ###
 ![image](https://user-images.githubusercontent.com/62974484/149967279-c2402331-48f0-48ad-be44-dff418299a4e.png)
 ###
-    [mysqld]
-    basedir="C:/Program Files/MySQL/MySQL Server 8.0"
-    datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
+```
+[mysqld]
+basedir="C:/Program Files/MySQL/MySQL Server 8.0"
+datadir="C:/Program Files/MySQL/MySQL Server 8.0/data"
+```
 ###
